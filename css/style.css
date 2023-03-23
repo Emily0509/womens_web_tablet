@@ -50,19 +50,19 @@ nav a.current{
 
 h1{
    display: flex;
-   font-size: 20px;
+   font-size: 36px;
    font-family: 'Merriweather', 'Anton', 'Times New Roman', sans-serif;
    justify-content: center;
 }
 
 h2{
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Anton', 'Times New Roman', sans-serif;
     text-align: center;
 }
 
 h3{
-    font-size: 16px;
+    font-size: 28px;
     font-family: 'Merriweather', 'Anton', sans-serif;
     padding: 0 20px;
 }
@@ -139,6 +139,10 @@ p{
     padding: 0 20px;
     font-family: 'Merriweather', 'Anton', sans-serif;
     font-size: 12px;
+}
+
+main img {
+    width: fit-content;
 }
 
 
@@ -222,13 +226,13 @@ dl > dd > p{
      }
      
     h2{
-        font-size: 36px;
+        font-size: 28px;
         font-family: 'Anton', 'Times New Roman', sans-serif;
         text-align: center;
     }
      
     h3{
-        font-size: 28px;
+        font-size: 18px;
         font-family: 'Merriweather', 'Anton', sans-serif;
         padding: 0 20px;
     }
@@ -238,10 +242,12 @@ dl > dd > p{
     }
 
     ul li{
-       font-size: 18px;
-       font-family: 'Merriweather', 'Anton', sans-serif;
-       padding-top: 10px;
-       padding-left: 10px;
+        list-style-type: circle;
+        list-style-position: inside;
+        font-size: 14px;
+        font-family: 'Merriweather', 'Anton', sans-serif;
+        padding-top: 10px;
+        padding-left: 10px;
     }
 
     .grid{
@@ -263,7 +269,7 @@ dl > dd > p{
         border: solid;
         background-color: beige;
         border-radius: 10px;
-        padding: 5px 5px 5px 40px;
+        padding: 5px 5px 5px 5px;
     }
 
     .grid img{
@@ -293,7 +299,7 @@ dl > dd > p{
         margin-top: 10px;
         padding: 0 20px;
         font-family: 'Merriweather', 'Anton', sans-serif;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .grid ul li{
